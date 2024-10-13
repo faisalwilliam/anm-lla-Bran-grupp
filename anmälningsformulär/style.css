@@ -1,0 +1,74 @@
+
+/* Grundläggande stilar för sidan */
+body {
+  font-family: sans-serif;
+
+}
+/* Stilar för formuläret */
+form {
+  width: 500px;
+  margin: 0 auto; /* Centrerar formuläret */
+  padding: 20px;
+  border: 1px solid  #572F3D;
+  background-color: aquamarine;
+
+  
+}
+/* Stilar för etiketter */
+label {
+  display: block; /* Visar etiketter på separata rader */
+  margin-bottom: 5px;
+}
+/* Stilar för textinmatningsfält */
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%; /* Fält tar upp hela bredden */
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #1C453B;
+  box-sizing: border-box; /* Inkluderar padding och border i bredden */
+}
+/* Stilar för fokus på textinmatningsfält */
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+  border-color: #c46276; /* Ändrar ramfärg vid fokus */
+}
+/* Stilar för radioknappar och kryssrutor */
+input[type="radio"],
+input[type="checkbox"] {
+  margin-right: 5px;
+}
+/* Stilar för rullgardinsmenyer */
+select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #1c453B;
+  box-sizing: border-box;
+}
+/* Stilar för knappen */
+button {
+  background-color: #001aff;
+  color:  white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer; /* Visar pekaren som en hand */
+}
+div {
+    color: #1C2916;
+    background-color: #C46276;
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+    border: 2px solid #5D6063;
+    border-radius: 5px;
+    margin-bottom: 50px;
+  
+  }
+
+/* Media queries */
+@media only screen and (max-width:90px) {
+    
+}

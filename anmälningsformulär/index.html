@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Anmälan till  Barngruppen</title>
+
+ 
+</head>
+<body>
+    <div>
+  <h1>Anmälan till Barngruppen</h1>
+</div>
+  <form>
+    
+    <label for="name">Barnets namn:</label>
+    <input type="text" id="name" name="name" placeholder="Exempel: Lisa Safs" required>
+    <label for="parent_names">Föräldrars/Vårdnadshavares namn:</label>
+    <input type="text" id="parent_names" name="parent_names" placeholder="Exempel: Asiha och Faisal Adam" required>
+    <label for="email">E-postadress:</label>
+    <input type="email" id="email" name="email" placeholder="Exempel: lisa. williamfaisal423@gmail.com" required>
+    <label for="phone">Telefonnummer:</label>
+    <input type="text" id="phone" name="phone" placeholder="Exempel: 070-0279396" required>
+    <label for="age">Barnets ålder:</label>
+    <input type="number" id="age" name="age" min="1" max="18" placeholder="Exempel: 10" required>
+    <label for="group">Grupp:</label>
+    <select id="group" name="group">
+      <option value="fotboll">Fotboll</option>
+      <option value="simning">Simning</option>
+      <option value="dans">Dans</option>
+      <option value="musik">Musik</option>
+    </select>
+    <label for="allergies">Allergier:</label>
+    <textarea id="allergies" name="allergies" placeholder="Exempel: mjölkallergi"></textarea>
+    <label for="payment">Betalningsreferens:</label>
+    <input type="radio" id="payment_bank" name="payment" value="bank" checked>
+    <label for="payment_bank">Banköverföring</label><br>
+    <input type="radio" id="payment_card" name="payment" value="card">
+    <label for="payment_card">Kortbetalning</label>
+    <button type="submit">Skicka anmälan</button>
+  </form>
+
+  
+</body>
+</html>
